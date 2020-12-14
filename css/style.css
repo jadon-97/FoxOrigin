@@ -1,3 +1,8 @@
+@font-face{
+  font-family: 'luna';
+  src:url("../fonts/Luna.ttf")
+}
+
 html{  
   padding: 0;
   margin: 0;
@@ -15,7 +20,7 @@ body{
 }
 
 h1 {
-  font-family: 'Luna', sans-serif;
+  font-family: 'Luna';
   text-align: center;
   font-size: 4.8rem;
   margin: 0;
@@ -188,7 +193,7 @@ div {
 
  
 .box1{
-  height: 100vh;
+  height: 80rem;
   width: 100%;
   background-image: url("../img/pic1.jpg");
   background-size: cover;
@@ -199,7 +204,7 @@ div {
 }
 
 .box2{
-  height: 100vh;
+  height: 80rem;
   width: 100%;
   background-image: url("../img/pic2.jpg");
   background-size: cover;
@@ -209,7 +214,7 @@ div {
 }
 
 .box3{
-  height: 100vh;
+  height: 80rem;
   width: 100%;
   background-image: url("../img/pic3.jpg");
   background-size: cover;
@@ -217,10 +222,29 @@ div {
   display: table;
   background-attachment: fixed;
 }
+
+
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 600px)
  {
+   
+  @font-face{
+    font-family: 'luna';
+    src:url("../fonts/Luna.ttf")
+  }
+
+  h1 {
+    font-family: 'Luna';
+    text-align: center;
+    font-size: 4.8rem;
+    margin: 0;
+    color: rgb(255, 255, 255); 
+    display: table-cell;
+    vertical-align: middle;
+  }
+
 
    html
    {

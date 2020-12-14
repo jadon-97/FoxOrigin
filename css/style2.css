@@ -16,7 +16,7 @@ body{
 hi{
   font-size: 1.8rem;
   font-weight: normal;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
  }
 
 .reeya{
@@ -45,10 +45,13 @@ header{
 }
 
 header h2{
-  color: #d3d3d3;
-  margin-top: -9rem;
-  margin-right: 5rem;
-  font-size: 2rem;
+    color: #d3d3d3;
+    margin-top: 0rem;
+    padding-top: 2rem;
+    padding-left: 0rem;
+    margin-bottom: -16.5rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
 }
 
 header, header:before{
@@ -58,18 +61,18 @@ header, header:before{
 header::before{
   bottom: 0;
   content: "";
-  left:0;
-  position:absolute;
-  right:0;
-  top:0;
+  left: -15px;
+  position: absolute;
+  right: 0px;
+  top: 0;
   display: block;
-  background-image:url(../img/7.png);
+  background-image: url(../img/7.png);
   height: 8rem;
-  transform-origin:center center 0;
+  transform-origin: center center 0;
   transform: translatez(-0.1rem) scale(2);
   z-index: -1;
-  min-height: 80rem;
-
+  min-height: 43rem;
+  min-width: 47rem;
 }
 
 header * {
@@ -387,7 +390,30 @@ p::selection {
        padding-bottom: 2rem;
     }
  
-    header{
-      display: none;
-    }
+    header::before{
+      bottom: 0;
+      content: "";
+      left: -15px;
+      position: absolute;
+      right: 0px;
+      top: 0;
+      display: block;
+      background-image: url(../img/7.png);
+      height: 8rem;
+      transform-origin: center center 0;
+      transform: translatez(-0.1rem) scale(2);
+      z-index: -1;
+      min-height: 43rem;
+      min-width: 47rem;
   }
+
+  header h2 {
+    color: #d3d3d3;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    margin-bottom: -16rem;
+    margin-right: 0rem;
+    font-size: 2rem;
+}
+
+}
